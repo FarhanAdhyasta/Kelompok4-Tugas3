@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+
+.nav-link{
+    
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+.button-contact{
+    border: none;
+    width: 107px;
+    height: 40px;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    color: white;
+    font-size: 12px;
+    
+}
+
+/* jumbotron */
+.judul{
+    
+    margin-left: 175px;
+    margin-top: 172px;
+    font-size: 97px;
+    line-height: 122px;
+    /* overflow-y: hidden; */
+    color: #020E35;
+}
+
+.jumbo{
+    margin-left: 34px;
+    overflow-x: hidden;
+    
+}
+/* .bebek{
+    
+} */
+.button-cv{
+    z-index: -5;
+    border: none;
+    width: 140px;
+    height: 40px;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    color: white;
+    left: 22%;
+    bottom: 0;
+    padding: 11px 38px 13px 20px;
+    font-size: 12px
+    
+}
+
+/* About */
+
+.isi{
+    width: 823px;
+    height: 75px;
+    overflow-x: hidden;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    
+    color: #2B2B2B;
+    
+}
+
+.about{
+    
+    font-weight: 400px;
+    font-size: 40px;
+}
+
+.garba{
+    width: 100px;
+    
+    border-bottom: 2px solid #E73587;
+}
+
+@media screen and (max-width: 768px){
+
+    .navbar{
+        width: 100%;
+    }
+    .hide{
+        display: none;
+    }
+    .jumbo{
+        display: none;
+    }
+    
+    .judul{
+        font-size: 24px;
+        line-height: 30px;
+        margin-left: 10px;
+        margin-top: 20px;
+        max-width: 30%;
+        padding-bottom: 40px;
+    }
+
+    .button-cv{
+        left: 3%;
+        width: 100px;
+        font-size: 8px;
+        
+        
+    }
+    .navbar img{
+        display: none;
+    }
+
+    .isi{
+        max-width: 100%;
+        padding: 10px;
+        height: 100%;
+    }
+
+    
+}
