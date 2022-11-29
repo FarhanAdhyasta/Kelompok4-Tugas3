@@ -1,36 +1,36 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     /* overflow-x: hidden; */
 }
 
-body{
+body {
     width: 100%;
     overflow-x: hidden;
-    
+
 }
 
-.nav-link{
-    
+.nav-link {
+
     font-weight: bold;
     text-transform: uppercase;
     color: black;
 }
 
-.button-contact{
+.button-contact {
     border: none;
     width: 107px;
     height: 40px;
     background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
     color: white;
     font-size: 12px;
-    
+
 }
 
 /* jumbotron */
-.judul{
-    
+.judul {
+
     margin-left: 175px;
     margin-top: 172px;
     font-size: 97px;
@@ -39,15 +39,16 @@ body{
     color: #020E35;
 }
 
-.jumbo{
+.jumbo {
     margin-left: 34px;
     overflow-x: hidden;
-    
+
 }
+
 /* .bebek{
     
 } */
-.button-cv{
+.button-cv {
     z-index: -5;
     border: none;
     width: 140px;
@@ -58,48 +59,49 @@ body{
     bottom: 0;
     padding: 11px 38px 13px 20px;
     font-size: 12px
-    
 }
 
 /* About */
 
-.isi{
+.isi {
     width: 823px;
     height: 75px;
     overflow-x: hidden;
     font-weight: 400;
     font-size: 20px;
     line-height: 25px;
-    
+
     color: #2B2B2B;
-    
+
 }
 
-.about{
-    
+.about {
+
     font-weight: 400px;
     font-size: 40px;
 }
 
-.garba{
+.garba {
     width: 100px;
-    
+
     border-bottom: 2px solid #E73587;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
-    .navbar{
+    .navbar {
         width: 100%;
     }
-    .hide{
+
+    .hide {
         display: none;
     }
-    .jumbo{
+
+    .jumbo {
         display: none;
     }
-    
-    .judul{
+
+    .judul {
         font-size: 24px;
         line-height: 30px;
         margin-left: 10px;
@@ -108,22 +110,83 @@ body{
         padding-bottom: 40px;
     }
 
-    .button-cv{
+    .button-cv {
         left: 3%;
         width: 100px;
         font-size: 8px;
-        
-        
+
+
     }
-    .navbar img{
+
+    .navbar img {
         display: none;
     }
 
-    .isi{
+    .isi {
         max-width: 100%;
         padding: 10px;
         height: 100%;
     }
 
-    
+
+}
+
+/* Section Question */
+/* Kolom 1 */
+.container-question {
+    font-family: "Basic";
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+.judul-kolom-1-question {
+    font-size: 30px;
+    line-height: 38px;
+    color: #020e35;
+}
+
+.title-kolom-1-question {
+    /* font-size: 30px; */
+    /* line-height: 110px; */
+    color: #020e35;
+}
+
+.hear {
+    /* font-size: 90px; */
+    line-height: 110px;
+    color: #e73587;
+}
+
+/* Kolom 2 */
+.form-label-question {
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 22px;
+    color: #2c3241;
+}
+
+.text-placeholder-question {
+    font-size: 18px;
+    line-height: 36px;
+    color: #2c3241;
+}
+
+.button-kolom-2-section-D {
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+
+/* Footer */
+.container-footer {
+    background: #020e35;
+    margin-top: 94px;
+}
+
+.title-footer {
+    font-family: "Basic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ffffff;
 }
