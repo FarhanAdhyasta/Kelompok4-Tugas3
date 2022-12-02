@@ -75,7 +75,7 @@ body {
 
 }
 
-.about {
+#about {
 
     font-weight: 400px;
     font-size: 40px;
@@ -97,7 +97,7 @@ body {
         display: none;
     }
 
-    .jumbo {
+    #jumbo {
         display: none;
     }
 
@@ -132,7 +132,7 @@ body {
 }
 
 /* Services */
-.services{
+#services{
     margin-top: 59px;
 }
 .container-services{
@@ -204,7 +204,7 @@ body {
     color: #ffffff;
 }
 
-.portfolio{
+#portofolio{
     background:#020E35;
 }
 
@@ -267,3 +267,4 @@ body {
     line-height: 15px;
     color: #ffffff;
 }
+
