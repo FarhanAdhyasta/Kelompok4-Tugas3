@@ -132,81 +132,88 @@ body {
 }
 
 /* Services */
-#services{
-    margin-top: 59px;
-}
-.container-services{
-    margin-top: 49px;
-}
-.work-container{
-    flex-direction: row;
-}
-.work-services-1{
-    height: 583px;
-    width: 377px;
-    border-radius: 0px;
-}
-.work-services-2{
-    height: 583px;
-    width: 377px;
-    border-radius: 0px;
-}
-.work-services-3{
-    height: 583px;
-    width: 377px;
-    border-radius: 0px;
-}
-.work-services-1{
-    background: #FDF8E3;
-}
-.work-services-2{
-    background: #F0F3FA;
-}
-.work-services-3{
-    background: #FEEFF0;
-}
-.card-image{
-    height: 284px;
-    width: 319px;
-    border-radius: 0px;
-}
-.card-text{
-    margin-top: 15px;
-    padding-right: 20px;
-    padding-left: 20px;
-}
-.h5{
-    font-family: 'Basic';
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0px;
-}
-.services p{
-    margin-top: 22px;
-    font-family: Basic;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0px;
-}
-.card-button{
-    height: 40px;
-    width: 140px;
-    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
-    font-family: 'Basic';
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 0px;
-    text-align: center;
+#services {
+    margin-bottom: -260px;
+  }
+  
+  .slide .card {
+    padding: 20px;
     border: none;
-    color: #ffffff;
-}
+    border-radius: 0;
+  }
+  
+  .slide img {
+    height: 238px;
+  }
+  .slide .first {
+    background-color: #fdf8e3;
+  }
+  
+  .slide .second {
+    background-color: #f0f3fa;
+  }
+  
+  .slide .third {
+    background-color: #feeff0;
+  }
+  
+  .slide button .next {
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%),
+     linear-gradient(0deg, #FFFFFF, #FFFFFF);
 
+    border-radius: 100%;
+    border: rgb(239, 14, 56) solid 2px;
+    color: rgb(255, 255, 255) !important;
+    padding: 23px 23px 20px 30px;
+    font-size: 15px;
+  }
+  
+  .slide .card a {
+    background: var(--color-gradient-1);
+    color: white !important;
+    text-decoration: none;
+    padding: 12px 40px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  
+  .valuable-services span {
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: var(--color-gradient-1);
+    margin: auto;
+  }
+.portofolio span {
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: var(--color-gradient-1);
+    margin: auto;
+}
+  
 #portofolio{
     background:#020E35;
+    padding-top: 380px;
 }
+  
+#portofolio h4 {
+    font-size: 30px;
+}
+  
+.portofolio a {
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    color: #feeff0;
+    text-decoration: none;
+    padding: 1em 2em;
+    display: inline-block;
+}
+  
+.porofolio .custom {
+    letter-spacing: 3px;
+}
+  
 
 /* Section Question */
 /* Kolom 1 */

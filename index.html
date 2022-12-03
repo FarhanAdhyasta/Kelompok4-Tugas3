@@ -13,6 +13,7 @@
 
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
 </head>
 
 <body>
@@ -86,110 +87,162 @@
     </section>
     
     <!--Our Service-->
-    <section id="services">
-      <div class="container py-5 item">
-        <h2 class="h2 fs-1 text-center mb-3 mx-auto " id="Services">Our Valuable Services</h2>
-        <div class="garba mx-auto"></div>
-        <div class="container container-services">
-          <div class="row justify-content-center">
-            <div class="work-container col-12 col-sm-6 col-md-4 d-flex justify-content-center">
-              <div class="work-services-1 me-3 text-center">
-                <div class="card-image">
-                  <img src="Asset/work1.svg" alt="" />
-                </div>
-                <div class="card-text">
-                  <h5>App Development</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua.</p>
-                </div>
-                <button class="card-button">READ MORE</button>
-              </div>
-
-              <div class="work-services-2 me-3 text-center">
-                <div class="card-image">
-                  <img src="Asset/work2.svg" alt="" />
-                </div>
-                <div class="card-text">
-                  <h5>App Development</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua.</p>
-                </div>
-                  <button class="card-button">READ MORE</button>
-                </div>
-
-                <div class="work-services-3 me-3 text-center">
-                  <div class="card-image">
-                    <img src="Asset/work3.svg" alt="" />
+    <section id="services" class="valuable-services text-center">
+        <div class="mb-5">
+          <h2>Our Valuable Services</h2>
+          <div class="garba mx-auto"></div>
+          <span></span>
+        </div>
+        <div class="container-fluid d-none d-lg-block">
+          <div class="row">
+            <div class="col-12">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <div class="card first">
+                            <div class="card-body">
+                              <img src="Asset/work1.svg" class="d-block w-100" alt="..." />
+                              <h6>App Development</h6>
+                              <p class="py-3 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                              <a href="#">READ MORE</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="card second">
+                            <div class="card-body">
+                              <img src="Asset/work2.svg" class="d-block w-100" alt="..." />
+                              <h6>Web Development</h6>
+                              <p class="py-3 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                              <a href="#">READ MORE</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="card third">
+                            <div class="card-body">
+                              <img src="Asset/work3.svg" class="d-block w-100" alt="..." />
+                              <h6>UI UX Design</h6>
+                              <p class="py-3 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                              <a href="#">READ MORE</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="card-text">
-                    <h5>App Development</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua.</p>
+                  <div class="carousel-item">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <div class="card first">
+                            <div class="card-body">
+                              <img src="Asset/work1.svg" class="d-block w-100" alt="..." />
+                              <h6>App Development</h6>
+                              <p class="py-3 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                              <a href="#">READ MORE</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="card second">
+                            <div class="card-body">
+                              <img src="Asset/work2.svg" class="d-block w-100" alt="..." />
+                              <h6>Web Development</h6>
+                              <p class="py-3 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                              <a href="#">READ MORE</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="card third">
+                            <div class="card-body">
+                              <img src="Asset/work3.svg" class="d-block w-100" alt="..." />
+                              <h6>UI UX Design</h6>
+                              <p class="py-3 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                              <a href="#">READ MORE</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <button class="card-button">READ MORE</button>
                 </div>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <div class="next">
+                    <i class="carousel-control-next-icon" aria-hidden="true"></i>
+                    <i class="visually-hidden">Next</i>
+                  </div>
+                </button>
               </div>
             </div>
           </div>
         </div>
-    </section>
+      </section>
 
       <!--Portofolio-->
-      <section id="portofolio">
-        <div class="container py-5">
-            <h2 class="h2 fs-1 text-center mb-3 mx-auto text-white item">Our Work</h2>
-            <hr class="mx-auto">
-            <div class="garba mx-auto"></div>
-            <div class="row my-5 py-3 px-0 px-lg-5 item">
-                <div class="col-md-6">
-                    <img class="img-fluid" src="Asset/porto1.svg" alt="">
-                    <hr class="d-block d-md-none mx-auto">
-                </div>
-                <div class="col-md-6 text-white text-center text-md-start order-first order-md-last">
-                    <h2>Brand Name</h2>
-                    <h6 class="mb-4">IOS | ANDROID | WEB DEVELOPMENT</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas distinctio officia officiis iusto modi tempora dicta numquam! Quibusdam possimus consectetur autem ullam minus. Asperiores quo eos, molestias deserunt maiores cupiditate!</p>
-                </div>
+      <section id="portofolio" class="portofolio text-center">
+        <div class="container">
+          <h2 class="text-white">Our Work</h2>
+          <div class="garba mx-auto"></div>
+          <span></span>
+          <div class="row row-cols-1 text-white mt-5">
+            <div class="col row my-4">
+              <div class="col-lg"><img src="Asset/porto1.svg" alt="" class="img-fluid mb-5 mb-lg-0" /></div>
+              <div class="col-lg text-lg-start text-center">
+                <h4 class="">Brand Name</h4>
+                <p class="custom mb-lg-5">iOS | ANDROID | WEB DEVELOPMENT</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                </p>
+              </div>
             </div>
-            <div class="row my-5 py-3 px-5 item">
-                <div class="col-md-6 text-white text-center text-md-end">
-                    <h2>Brand Name</h2>
-                    <h6 class="mb-4">IOS | ANDROID | WEB DEVELOPMENT</h6>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum vel voluptatibus ipsam a dolorum necessitatibus, deleniti assumenda dolores, praesentium officia asperiores nihil sed blanditiis quasi voluptatem incidunt illo quae?</p>
-                </div>
-                <div class="col-md-6">
-                    <img class="img-fluid" src="Asset/porto2.svg" alt="">
-                    <hr class="d-block d-md-none mx-auto">
-                </div>
+            <div class="col-lg row my-4 d-flex flex-column-reverse flex-lg-row">
+              <div class="col-lg text-lg-end text-center">
+                <h4 class="">Brand Name</h4>
+                <p class="custom mb-lg-5">iOS | ANDROID | WEB DEVELOPMENT</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                </p>
+              </div>
+              <div class="col-lg"><img src="Asset/porto2.svg" alt="" class="img-fluid mb-5 mb-lg-0" /></div>
             </div>
-            <div class="row my-5 py-3 px-5 item">
-                <div class="col-md-6">
-                    <img class="img-fluid" src="Asset/porto3.svg" alt="">
-                    <hr class="d-block d-md-none mx-auto">
-                </div>
-                <div class="col-md-6 text-white text-center text-md-start order-first order-md-last">
-                    <h2>Brand Name</h2>
-                    <h6 class="mb-4">IOS | ANDROID | WEB DEVELOPMENT</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat possimus asperiores doloremque odit distinctio, sequi unde, porro assumenda excepturi labore alias soluta! Eum, ullam praesentium. Asperiores cupiditate suscipit doloremque?</p>
-                </div>
+            <div class="col row my-4">
+              <div class="col-lg"><img src="Asset/porto3.svg" alt="" class="img-fluid mb-5 mb-lg-0" /></div>
+              <div class="col-lg text-lg-start text-center">
+                <h4 class="">Brand Name</h4>
+                <p class="custom mb-lg-5">iOS | ANDROID | WEB DEVELOPMENT</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                </p>
+              </div>
             </div>
-            <div class="row my-5 py-3 px-5 item">
-                <div class="col-md-6 text-white text-center text-md-end">
-                    <h2>Brand Name</h2>
-                    <h6 class="mb-4">IOS | ANDROID | WEB DEVELOPMENT</h6>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint tempora dolorum, repellat corporis sapiente et natus quia quo, magnam hic aliquid quod vero minus error iusto aliquam fugit id reprehenderit?</p>
-                </div>
-                <div class="col-md-6">
-                    <img class="img-fluid" src="Asset/porto4.svg" alt="">
-                    <hr class="d-block d-md-none mx-auto">
-                </div>
+            <div class="col-lg row my-4 d-flex flex-column-reverse flex-lg-row">
+              <div class="col-lg text-lg-end text-center">
+                <h4 class="">Brand Name</h4>
+                <p class="custom mb-lg-5">iOS | ANDROID | WEB DEVELOPMENT</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                </p>
+              </div>
+              <div class="col-lg"><img src="Asset/porto4.svg" alt="" class="img-fluid mb-5 mb-lg-0" /></div>
             </div>
-            <div class="row">
-                <button type="button" data-bs-toggle="modal" data-bs-target="#allWork" class="btn btn-primary text-white py-2 rounded-0 w-25 mx-auto">SEE ALL WORKS</button>
-            </div>
+          </div>
+          <a class="btn-outline-primary" href="">SEE ALL WORK</a>
         </div>
-    </section>
+      </section>
 
-    <section id="contact"
+    <section id="contact">
     <div class="container">
-        <div class="container-question row justify-content-evenly">
+        <div class="container my-5 py-5">
+            <div class="container-fluid row row-cols-lg-2 row-cols-1">
             <div class="kolom-1-question col-md-6">
                 <p class="judul-kolom-1-question">Questions, Comments, Concerns?</p>
                 <p class="title-kolom-1-question display-1">
@@ -248,6 +301,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+    <script src="javascript/script.js"></script>
+    <script src="javascript/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
